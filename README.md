@@ -1,21 +1,10 @@
-# Anki-Connect
+# Anki REST API
 
-Anki-Connect enables external applications such as [Yomichan](https://foosoft.net/projects/yomichan/) to communicate
-with [Anki](https://apps.ankiweb.net/) over a simple HTTP API. Its capabilities include executing queries against the
-user's card deck, automatically creating new cards, and more. Anki-Connect is compatible with the latest stable (2.1.x)
-releases of Anki; older versions (2.0.x and below) are no longer supported.
+Anki-API's capabilities include executing queries against the user's card deck, automatically creating new cards, and more. 
+Anki-Connect is compatible with the latest stable (2.1.x) releases of Anki; older versions (2.0.x and below) are no longer supported.
 
-## Installation
+> <b>⚠️ Warning:</b> This a fork in development. Expect bugs.
 
-The installation process is similar to other Anki plugins and can be accomplished in three steps:
-
-1.  Open the `Install Add-on` dialog by selecting `Tools` | `Add-ons` | `Get Add-ons...` in Anki.
-2.  Input [2055492159](https://ankiweb.net/shared/info/2055492159) into the text box labeled `Code` and press the `OK` button to proceed.
-3.  Restart Anki when prompted to do so in order to complete the installation of Anki-Connect.
-
-Anki must be kept running in the background in order for other applications to be able to use Anki-Connect. You can
-verify that Anki-Connect is running at any time by accessing `localhost:8765` in your browser. If the server is running,
-you will see the message `Anki-Connect` displayed in your browser window.
 
 ### Notes for Windows Users
 

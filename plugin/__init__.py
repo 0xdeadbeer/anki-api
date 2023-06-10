@@ -1448,6 +1448,10 @@ class AnkiConnect:
 
         return list(map(int, self.collection().findCards(query)))
 
+    @util.api()
+    def findCardsFull(self, query=None): 
+        cards = self.findCards(query)
+        return self.cardsInfo(cards)
 
     @util.api()
     def cardsInfo(self, cards):
